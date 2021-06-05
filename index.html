@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>registro</title>
+</head>
+<body>
+    <center>
+        <h1>iDESWEB</h1>
+        <h4>formulario de registro</h4>
+    </center> 
+    <div class="container">
+        <div class="item">
+            <fieldset>
+                <legend><b>¿quien eres?</b></legend>
+                <label for="">nombres</label><br>
+                <input type="text" placeholder="ingresa tus nombres"><br>
+                <label for="">apellidos</label><br>
+                <input type="text" placeholder="ingresa tu apellidos"><br>
+                <label for="">correo electronico</label><br>
+                <input type="email" placeholder="example@example.com"><br>
+                <label for="">fecha de nacimiento</label><br>
+                <input type="date" placeholder="DD/MM/AAAA">
+            </fieldset>
+        </div>
+        <div class="item">
+            <fieldset>
+                <legend><b>¿de donde eres?</b></legend>
+                <label for="">ciudad</label><br>
+                <input type="text" placeholder="ciudad"><br>
+                <label for="">codigo postal</label><br>
+                <input type="number" placeholder="000000"><br>
+                <label for="">pais</label><br>
+                <select name="pais" >
+                    <option value="pais">selecionar</option>
+                    <option value="pais">colombia</option>
+                    <option value="pais">venezuela</option>
+                    <option value="pais">ecuador</option>
+                    <option value="pais">chile</option>
+                    <option value="pais">peru</option>
+                    <option value="pais">nicaragua</option>
+                </select>
+            </fieldset>
+            <br><br><br>
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="item">
+            <fieldset>
+                <legend><b>¿como quieres iniciar seccion?</b></legend>
+                <label for="">nombre de usuario</label><br>
+                <input type="text" placeholder="user1"><br>
+                <label for="">contraseña</label><br>
+                <input type="password"><br>
+                <label for="">vuelve a escribir la contraseña</label><br>
+                <input type="password">
+            </fieldset>
+        </div>
+        
+        <br>
+        <div class="item">
+            <fieldset>
+                <legend><b>CONDICIONES DE REGISTRO</b></legend>
+                <label for="">deseo resivir ofertas de iDESWEB</label><br>
+        
+                <input type="radio" name="URS" value="UR"><label for="">una vez al dia</label>
+                <input type="radio" name="URS" value="UR"><label for="">una vez a la semana</label>
+                <input type="radio" name="URS" value="UR"><label for="">una vez al mes</label><br><br>
+                <input type="checkbox" name="SAR" value="UR"><label for="">acepto el acuerdo de servicio, la declaracion de privacidad y la declaracion de uso de coolies</label>
+            </fieldset>
+        </div>
+        
+        
+    </div>
+    <center><div class="boton">
+        <input type="submit" name="enviar" value="crear cuenta" >
+    </div>
+    </center>
+    
+    
+
+</body>
+</html>

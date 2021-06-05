@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.item{
+    padding: 2em;
+    margin: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.boton{
+    width: 10%;
+    height: 22%;
+    margin: 20px;
+}
